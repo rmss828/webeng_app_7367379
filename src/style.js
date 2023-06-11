@@ -18,10 +18,10 @@ const styles = {
   borderGold: 'border-2 border-tertiary',
 };
 
-styles.button = `${styles.roundBox} ${styles.paragraph} ${styles.borderGold}`;
+styles.button = `${styles.roundBox} ${styles.paragraph} ${styles.borderGold} mt-[20px] mb-[20px]`;
 styles.buttonHover = `hover:border-[#ff5db2] hover:text-[#ff5db2]`;
 styles.canvas = `${styles.borderGold} rounded-[4px]`;
-
+styles.buttonContainer = `flex flex-row gap-10`;
 
 export const layout = {
   section: `flex md:flex-row flex-col ${styles.paddingY}`,

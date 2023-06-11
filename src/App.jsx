@@ -1,6 +1,6 @@
 import styles from "./style";
 
-import { Navbar, Hero, Weather, Stocks, RSSFeed, Signature, Footer } from './components';
+import { Navbar, Hero, RSSFeed, Signature, Footer } from './components';
 
 const App = () => {
   return (
@@ -19,8 +19,6 @@ const App = () => {
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Weather />
-          <Stocks />
           <RSSFeed />
           <Signature />
           <Footer />

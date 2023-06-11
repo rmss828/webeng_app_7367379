@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import styles from '../style';
 
-const Canvas = ({ clearCanvas }) => {
+const Canvas = ({ clearCanvas, onSignatureSubmit }) => {
   const canvasRef = useRef(null);
   const contextRef = useRef(null);
 
@@ -56,6 +56,12 @@ const Canvas = ({ clearCanvas }) => {
     canvas.removeEventListener('mousemove', draw);
   };
 
+  const handleSubmit = () => {
+    const canvas = canvasRef.current;
+    const dataURL = canvas.toDataURL();
+    onSignatureSubmit(dataURL);
+  };
+
   return (
     <div>
       <canvas
@@ -66,7 +72,7 @@ const Canvas = ({ clearCanvas }) => {
       onMouseDown={startDrawing}
       onMouseUp={stopDrawing}
       onMouseOut={stopDrawing}
-      
+
       onTouchStart={startDrawing}
       onTouchEnd={stopDrawing}
       onTouchCancel={stopDrawing}
@@ -75,9 +81,15 @@ const Canvas = ({ clearCanvas }) => {
         draw(event.touches[0]);
       }}
     ></canvas>
-      <button className={`${styles.button} ${styles.buttonHover}`} onClick={clearCanvas}>
-        Clear
-      </button>
+
+      <div className={`${styles.buttonContainer}`}>
+        <button className={`${styles.button} ${styles.buttonHover}`} onClick={clearCanvas}>
+          clear
+        </button>
+        <button className={`${styles.button} ${styles.buttonHover}`} onClick={handleSubmit}>
+          submit
+        </button>
+      </div>
     </div>
   );
 };

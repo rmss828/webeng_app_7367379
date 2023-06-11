@@ -23,7 +23,7 @@ const RSSFeed = () => {
   console.log(articles);
   return (
     <section id='rssfeed'>
-      <h1 className={`flex-1 font-poppins font-semibold ss:text-[36px] text-[26px] text-white sm:pt-16 pt-6`}>
+      <h1 className={`flex-1 font-poppins font-semibold ss:text-[36px] text-[26px] text-white sm:pt-16 pt-6 my-10`}>
         RSS Feed 
         <span className='ss:text-[24px] text-[18px]'> (Tagesschau & Focus)</span>
       </h1>
