@@ -20,6 +20,8 @@ const styles = {
 
 styles.button = `${styles.roundBox} ${styles.paragraph} ${styles.borderGold}`;
 styles.buttonHover = `hover:border-[#ff5db2] hover:text-[#ff5db2]`;
+styles.canvas = `${styles.borderGold} rounded-[4px]`;
+
 
 export const layout = {
   section: `flex md:flex-row flex-col ${styles.paddingY}`,

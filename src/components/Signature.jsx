@@ -25,7 +25,9 @@ const Signature = () => {
             </span>
 
             <div>
-              POPUP CONTENT HERE
+              <canvas height='100' width='300' className={`${styles.canvas}`}></canvas>
+              <button className={`${styles.button} ${styles.buttonHover}`}>Clear</button>
+              <button className={`${styles.button} ${styles.buttonHover}`}>Submit</button>
             </div>
 
           </div>
