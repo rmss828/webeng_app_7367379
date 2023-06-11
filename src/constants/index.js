@@ -23,8 +23,8 @@ export const footerLinks = [
     title: "Monster Cards",
     links: [
       {
-        name: "Tri-Brigade Shuraig the Ominous Omen",
-        link: "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=15527",
+        name: "Accesscode Talker",
+        link: "https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid=15032",
       },
       {
         name: "Spright Blue",
