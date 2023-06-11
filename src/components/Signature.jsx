@@ -19,7 +19,7 @@ const Signature = () => {
   };
 
   return (
-    <section>
+    <section id='signature'>
       <h1 className={`flex-1 font-poppins font-semibold ss:text-[36px] text-[26px] text-white sm:pt-16 pt-6 my-10`}>
         Enter your signature 
       </h1>
