@@ -22,13 +22,15 @@ const RSSFeed = () => {
 
   console.log(articles);
   return (
-    <section id='rssfeed'>
-      {articles.map((item, index) => 
+    <section 
+      id='rssfeed'
+    >
+      {articles.map((item) => 
         <Feed 
-          key={index}
+          key={item.link}
           title={item.title}
           link={item.link}
-          pubDate={item.pubDate}
+          date={item.pubDate}
           snippet={item.snippet}
           image={item.image}
         />

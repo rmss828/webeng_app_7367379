@@ -13,6 +13,8 @@ const styles = {
 
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
+
+  roundBox: 'flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2',
 };
 
 export const layout = {
