@@ -1,10 +1,10 @@
 import styles from "./style";
 
-import { Navbar, Hero, RSSFeed, Signature, Footer } from './components';
+import { Navbar, Hero, RSSFeed, Signature, Footer } from "./components";
 
 const App = () => {
   return (
-    <div className='bg-primary w-full overflow-hidden'>
+    <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
@@ -26,6 +26,6 @@ const App = () => {
       </div>
     </div>
   );
-}
+};
 
 export default App;

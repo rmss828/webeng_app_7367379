@@ -22,13 +22,18 @@ const RSSFeed = () => {
 
   console.log(articles);
   return (
-    <section id='rssfeed'>
-      <h1 className={`flex-1 font-poppins font-semibold ss:text-[36px] text-[26px] text-white sm:pt-16 pt-6 my-10`}>
-        RSS Feed 
-        <span className='ss:text-[24px] text-[18px]'> (Tagesschau & Focus)</span>
+    <section id="rssfeed">
+      <h1
+        className={`flex-1 font-poppins font-semibold ss:text-[36px] text-[26px] text-white sm:pt-16 pt-6 my-10`}
+      >
+        RSS Feed
+        <span className="ss:text-[24px] text-[18px]">
+          {" "}
+          (Tagesschau & Focus)
+        </span>
       </h1>
-      {articles.map((item) => 
-        <Feed 
+      {articles.map((item) => (
+        <Feed
           key={item.link}
           title={item.title}
           link={item.link}
@@ -36,9 +41,9 @@ const RSSFeed = () => {
           snippet={item.snippet}
           image={item.image}
         />
-      )}
+      ))}
     </section>
   );
-}
+};
 
 export default RSSFeed;
