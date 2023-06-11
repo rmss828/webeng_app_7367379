@@ -1,6 +1,6 @@
 import styles from "./style";
 
-import { Navbar, Hero, Weather, Stocks, RSSFeed, Footer } from './components';
+import { Navbar, Hero, Weather, Stocks, RSSFeed, Signature, Footer } from './components';
 
 const App = () => {
   return (
@@ -22,6 +22,7 @@ const App = () => {
           <Weather />
           <Stocks />
           <RSSFeed />
+          <Signature />
           <Footer />
         </div>
       </div>

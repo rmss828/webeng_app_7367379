@@ -21,7 +21,7 @@ const Feed = ({ title, link, date, snippet, image }) => {
         </p>
       </div>
 
-      <div className={`w-full md:max-w-[40%] h-auto py-[20px] md:py-[0px] px-[20px] mx-auto`}>
+      <div className={`w-full md:max-w-[35%] h-auto py-[20px] md:py-[0px] px-[20px] mx-auto`}>
         <img src={image} alt={title} />
       </div>
     </section>

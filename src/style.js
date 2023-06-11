@@ -15,7 +15,11 @@ const styles = {
   marginY: "sm:my-16 my-6",
 
   roundBox: 'flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2',
+  borderGold: 'border-2 border-tertiary',
 };
+
+styles.button = `${styles.roundBox} ${styles.paragraph} ${styles.borderGold}`;
+styles.buttonHover = `hover:border-[#ff5db2] hover:text-[#ff5db2]`;
 
 export const layout = {
   section: `flex md:flex-row flex-col ${styles.paddingY}`,
