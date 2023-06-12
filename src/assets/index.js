@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
-import menu from "./menu.svg";
-import close from "./close.svg";
+import menu from "./menu.png";
+import close from "./close.png";
 import shuraig from "./shuraig.png";
 
 export {

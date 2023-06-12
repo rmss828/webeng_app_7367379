@@ -52,7 +52,7 @@ const Signature = () => {
           style={{ marginLeft: "auto", marginRight: "auto", marginBottom: 40 }}
         >
           <h2 className={`${styles.paragraph} text-primary `}>
-            Your Signature:
+            you entered:
           </h2>
           {drawingDataURL && <img src={drawingDataURL} alt="Signature" />}
         </div>
