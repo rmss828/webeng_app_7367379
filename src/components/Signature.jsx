@@ -20,7 +20,7 @@ const Signature = () => {
   return (
     <section id="signature">
       <h1
-        className={`flex-1 font-poppins font-semibold ss:text-[36px] text-[26px] text-white sm:pt-16 pt-6 my-10`}
+        className={`${styles.heading}`}
       >
         Enter your signature
       </h1>
@@ -34,17 +34,19 @@ const Signature = () => {
 
           <button
             onClick={() => setShowPopup(true)}
-            className={`${styles.button} ${styles.buttonHover} my-[20px]`}
+            className={`${styles.button} my-[20px]`}
           >
             sign now
           </button>
 
-          <button
-            className={`${styles.button} ${styles.buttonHover} close`}
-            onClick={() => setShowPopup(false)}
-          >
-            cancel signing
-          </button>
+          {showPopup && (
+            <button
+              className={`${styles.button} close`}
+              onClick={() => setShowPopup(false)}
+            >
+              cancel signing
+            </button>
+          )}
         </div>
 
         <div

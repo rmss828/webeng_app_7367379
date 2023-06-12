@@ -15,7 +15,7 @@ const Hero = () => (
     </div>
 
     <div
-      className={`flex-1 ${styles.flexStart} flex-col xl:px-0, sm:px-16, px-6`}
+      className={`flex-1 ${styles.flexStart} flex-col px-0, sm:px-16, px-6`}
     >
       <div className={`${styles.roundBox}`}>
         <p className={`${styles.paragraph}`}>

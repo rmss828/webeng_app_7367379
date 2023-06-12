@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import Feed from "./Feed";
+import styles from "../style";
 
 const RSSFeed = () => {
   const [articles, setArticles] = useState([]);
@@ -24,7 +25,7 @@ const RSSFeed = () => {
   return (
     <section id="rssfeed">
       <h1
-        className={`flex-1 font-poppins font-semibold ss:text-[36px] text-[26px] text-white sm:pt-16 pt-6 my-10`}
+        className={`${styles.heading}`}
       >
         RSS Feed
         <span className="ss:text-[24px] text-[18px]">

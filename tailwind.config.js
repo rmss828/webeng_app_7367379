@@ -14,14 +14,9 @@ module.exports = {
       },
     },
     screens: {
-      xs: "480px",
       ss: "640px",
       sm: "768px",
       md: "1080px",
-      lg: "1200px",
-      xl: "1700px",
     },
   },
-  plugins: [],
 };
-
