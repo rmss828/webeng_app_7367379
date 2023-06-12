@@ -1,3 +1,8 @@
+/*
+  provides ui for entering a signature (or any drawing if user wants to)
+  button opens popup with canvas
+*/
+
 import React from "react";
 import styles from "../style";
 import Canvas from "./Canvas";

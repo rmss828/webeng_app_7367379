@@ -1,5 +1,9 @@
-import styles from "./style";
+/*
+  main component of website
+  renders overall layout of website
+*/
 
+import styles from "./style";
 import { Navbar, Hero, RSSFeed, Signature, Footer } from "./components";
 
 const App = () => {

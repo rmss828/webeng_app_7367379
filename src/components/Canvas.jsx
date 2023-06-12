@@ -1,3 +1,8 @@
+/*
+  canvas drawing area for signature input
+  signature can be cleared or submitted using buttons
+*/
+
 import React, { useEffect, useRef } from "react";
 import styles from "../style";
 

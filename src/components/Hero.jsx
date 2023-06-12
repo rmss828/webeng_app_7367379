@@ -1,3 +1,8 @@
+/*
+  hero section of website
+  welcomes user to website with incredibly gorgeous image of shuraig
+*/
+
 import React from "react";
 import styles from "../style";
 import { shuraig } from "../assets";

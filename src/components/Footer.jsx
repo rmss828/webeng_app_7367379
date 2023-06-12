@@ -1,3 +1,8 @@
+/*
+  footer of website
+  footer links are in constants.js
+*/
+
 import styles from "../style";
 import { logo } from "../assets";
 import { footerLinks } from "../constants";

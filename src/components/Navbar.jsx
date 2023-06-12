@@ -1,5 +1,9 @@
-import { useState } from "react";
+/*
+  navbar component
+  logo with my matrikelnummer
+*/
 
+import { useState } from "react";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 

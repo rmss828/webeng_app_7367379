@@ -1,3 +1,8 @@
+/*
+  represents a single feed item
+  renders the title, link, date, snippet and image of the feed item
+*/
+
 import React from "react";
 import styles from "../style";
 

@@ -1,3 +1,8 @@
+/*
+  fetches the RSS feed from the backend and displays it
+  each feed item is displayed using the Feed component
+*/
+
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import Feed from "./Feed";
