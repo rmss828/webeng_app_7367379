@@ -14,9 +14,7 @@ const Hero = () => (
       <div className="absolute z-[0] w-[50%] h-[70%] left-20 bottom-20 yellow-gradient" />
     </div>
 
-    <div
-      className={`flex-1 ${styles.flexStart} flex-col px-0, sm:px-16, px-6`}
-    >
+    <div className={`flex-1 ${styles.flexStart} flex-col px-0, sm:px-16, px-6`}>
       <div className={`${styles.roundBox}`}>
         <p className={`${styles.paragraph}`}>
           Image: Tri-Brigade Shuraig The Ominous Omen

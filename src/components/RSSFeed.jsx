@@ -24,9 +24,7 @@ const RSSFeed = () => {
   console.log(articles);
   return (
     <section id="rssfeed">
-      <h1
-        className={`${styles.heading}`}
-      >
+      <h1 className={`${styles.heading}`}>
         RSS Feed
         <span className="ss:text-[24px] text-[18px]">
           {" "}

@@ -19,11 +19,7 @@ const Signature = () => {
 
   return (
     <section id="signature">
-      <h1
-        className={`${styles.heading}`}
-      >
-        Enter your signature
-      </h1>
+      <h1 className={`${styles.heading}`}>Enter your signature</h1>
 
       <div className="flex md:flex-row flex-col">
         <div>
@@ -53,9 +49,7 @@ const Signature = () => {
           className={`${styles.canvas} p-[10px] bg-[#ffffff] justify-start w-[330px] h-[210px] `}
           style={{ marginLeft: "auto", marginRight: "auto", marginBottom: 40 }}
         >
-          <h2 className={`${styles.paragraph} text-primary `}>
-            you entered:
-          </h2>
+          <h2 className={`${styles.paragraph} text-primary `}>you entered:</h2>
           {drawingDataURL && <img src={drawingDataURL} alt="Signature" />}
         </div>
 

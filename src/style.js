@@ -3,7 +3,7 @@ const styles = {
 
   heading:
     "flex-1 font-poppins font-semibold ss:text-[36px] text-[26px] text-white sm:pt-16 pt-6 my-10",
-  
+
   paragraph:
     "font-poppins font-normal text-[#ffdb99] text-[18px] leading-[30.8px]",
 
@@ -16,7 +16,8 @@ const styles = {
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
 
-  roundBox: "flex flex-row items-center py-[6px] px-4 yl-to-bl-gradient rounded-[10px] mb-2",
+  roundBox:
+    "flex flex-row items-center py-[6px] px-4 yl-to-bl-gradient rounded-[10px] mb-2",
   borderGold: "border-2 border-tertiary",
 };
 
